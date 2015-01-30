@@ -1,0 +1,116 @@
+body{
+	background-image: url(../img/tile.jpg);
+	background-position: center center;
+	background-repeat: repeat;
+}
+
+#wrapper{
+	min-width: 320px;
+	max-width: 900px;
+	width: 90%;
+	margin-bottom: 15px;
+
+	background-color: rgba(0,0,0,.5);
+	margin: auto;
+	position: relative;
+
+}
+nav{ background-color: black;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	border: 2px blue solid;
+	line-height: 45px;
+	font-size: 30px;
+	color: #35ffcc;
+	text-decoration: none;
+}
+nav a{ margin: 5px; text-decoration: none;}
+nav a:hover{ color: #ffa071}
+
+ .pinned{ position: fixed; 
+ 	left: 0px;	top: 0px; right: 0px; 
+ 	/*z-index: 1000;*/
+ 	height: 50px; 
+ 	 }
+
+header{  height:200px; margin: auto auto; text-align: center; border: 2px white solid;}
+header h1{line-height: 250px; color: purple; margin: 0px;}
+
+.imgFace img{ width: 400px; height: 300px; }
+
+section{ padding: 10px; margin: auto; min-width: 320px; }
+.homeOne img{ width: 100%; height: 100%; }
+
+
+.wholeMonth
+.indiImage
+
+.addHere{
+	width: 200px;
+}
+
+
+footer {text-align: center; background-color: white; height: 55px; }
+
+/*Adding individual stuff in this section*/
+	/*Add here is the section around the entire thing.*/
+	.addHere{
+		border:solid green 2px;
+		width: 90%;
+		margin: auto;
+		min-width: 320px;
+	}
+	/*label is the titles*/
+	label{
+		margin: auto;
+		padding:5px;
+		color: orange;
+		display: block;
+		border:2px green solid;
+		text-align: center;
+		font-size: 25px;
+		background-color: red;
+		width: 200px;
+	}
+	/*individual sections inside add here*/
+	.form-group{
+		border:solid pink 2px;
+		width: 70%;
+		margin: auto;
+		padding:10px;
+		text-align: center;
+	}
+	/*this the sumbmit button*/
+	button.btn{
+	background-color: #35ffcc;
+	border-radius: 5px;
+	height: 30px;
+	width: 100%;
+
+	margin-top: 15px;
+	color: white;
+}
+
+/*End Adding individual stuff in this section*/
+
+
+
+
+
+.form-control{
+	margin: auto;
+	display: inline-block;
+}
+select{
+	margin: auto;
+}
+textarea.form-control{
+	height: 90%;
+	width: 90%;
+	overflow: hidden;
+	margin: auto;
+
+}
+
+			
